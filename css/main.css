@@ -1,0 +1,140 @@
+body{
+    background-color: #D5D5D5;
+    font-family: Helvetica;
+    color: black;
+    margin: 0;
+
+}
+h2 {
+    margin: auto;
+    text-align: center;
+    font-size: 7em;
+}
+h3 {
+    text-align: center
+}
+
+main {
+    margin: 1em
+}
+#myHeading {
+    padding: 0em;
+    margin-top: 4em;
+    height: 66em;
+    
+}
+
+/*Navbar taken from www.w3schools.com*/
+nav ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    text-align: left;
+    overflow: hidden;
+    background-color: #6D7993;
+    position: fixed;
+    width: 100%;
+    top: 0em;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #9099A2;
+}
+
+ul li a.active {
+    background-color: #96858F;
+}
+#lanPic{
+/*    display: block;*/
+    width: 30%;
+    height: auto;
+    float: right;
+    padding-right: 20%;
+    padding-left: 3em;
+}
+#bioPic {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-right: 3em;
+    padding-left: 20%;
+}
+.bioText {
+    padding bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #6D7993;
+    padding: .5em;
+}
+footer p {
+    float:left;
+    text-align: left;
+    padding-right: 1em;
+}
+
+/*button from codecademy/w3schools*/
+.button {
+    background-color: #6D7993;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #9099A2;
+}
+
+.container{
+    padding-left: 30em;
+}
+
+.socialMedia li {
+    display: inline;
+    text-align: right;
+    list-style-type: none;
+    padding-right: 2em;
+    text-decoration: none;
+    
+}
+
+.socialMediaContact li{
+    display: inline;
+    padding-right: 2em;
+}
+
+
+/*
+@media screen and (min-width: 27em) {
+    main {
+        width: 20em;
+    }    
+    ul li {
+        float: none;
+    }
+}
+*/
+
+/*
+@media screen and (max-width: 600m){
+    ul.topnav li {float: none;}
+*/
+
