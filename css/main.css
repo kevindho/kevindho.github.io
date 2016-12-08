@@ -6,6 +6,13 @@ body{
     color: black;
 }
 
+h1 {
+    margin:auto;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    text-align: center;
+    font-size: 3em;
+}
 h2 {
     margin: auto;
     text-align: center;
@@ -13,9 +20,25 @@ h2 {
 }
 
 h3 {
-    text-align: center
+    text-align: center;
+    font-size: 2em;
 }
 
+.subheading {
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: .5em;
+    padding-top: .7em;
+}
+.subheading a{
+    color: black;
+}
+
+.subheading a:hover{
+    color: #6D7993;
+}
 main {
     margin: 1em;
     margin-bottom: 50px;
@@ -81,6 +104,34 @@ ul li a.active {
 
 .bioText {
     padding bottom: 10px;
+}
+
+.contactText {
+    text-align: center;
+}
+
+.socialMediaContact {
+    text-align: center;
+}
+.finalContent {
+    margin: auto;
+    text-align: center;
+    padding-left: 25em;
+    padding-right: 25em;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.finalContent a {
+    color: black;
+}
+
+.finalContent a:hover {
+    color: #6D7993;
+}
+
+#endPadding {
+    padding: 4em;
 }
 
 footer {
